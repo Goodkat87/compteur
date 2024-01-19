@@ -1,3 +1,28 @@
-
+body {
+  background-color: #660066;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  height: 95vh;
+}
+body div {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body div img {
+  height: 100px;
+  width: 100px;
+}
+body div p {
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
 
 /*# sourceMappingURL=app.css.map */
